@@ -1,0 +1,32 @@
+
+.reader-meta{
+    justify-content: space-between;
+}
+.owner-video-meta{
+    justify-content: space-between;
+}
+[class^="container-reader"]{
+    padding: 10px;
+}
+.form-contact{
+    justify-content: center;
+    border-radius: 2rem;
+}
+
+footer{
+    background-color: gray;
+    color: black;
+    clear: both;
+    height: 10%;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 900px) {
+    [class^="container-reader"]{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 650px) {
+    
+}

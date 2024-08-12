@@ -1,0 +1,26 @@
+.form-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    background-color: gainsboro;
+}
+
+form{
+    width: 350px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 5 10px rgba(0, 0, 0, 0.1);
+}
+.button{
+    background-color: blue;
+    padding: 10px;
+    justify-content: center;
+    font-weight: 1.2rem;
+    width: 26em;
+}
+.reader-video-meta h1{
+    text-align: center;
+ 
+}

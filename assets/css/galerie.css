@@ -1,0 +1,21 @@
+
+.reader-meta{
+    justify-content: space-between;
+}
+.owner-video-meta{
+    justify-content: space-between;
+    width: 250px;
+    height: 200px;
+}
+[class^="container-reader"]{
+    padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    [class^="container-reader"]{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 650px) {
+    
+}
